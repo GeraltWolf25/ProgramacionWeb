@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Grayscale - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navegacion API---->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="api/index.html">API</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">Acerca de</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#signup">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Info Contacto-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">PIRATA MOTOS</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Tenemos las herramientas y respuestos adecuados para ti</h2>
+                        <a class="btn btn-primary" href="#signup">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+						<h1 class="text-white mb-4 text-uppercase">Lubricantes</h1>
+                        <h2 class="text-white mb-4">Castrol</h2>
+                        <p class="text-white-50">
+                            Es más que solo aceite. Es ingeniería líquida. Castrol proporciona todos los aceites, fluidos y
+							lubricantes que necesita el mundo, para cada conductor, cada viajero y cada industria.
+                            <a href="https://www.castrol.com/es_cl/chile/home.html">Castrol</a>
+                            es una marca británica de lubricantes vehiculares e industriales.
+                        </p>
+						<img class="img-fluid" src="assets/img/castrol.png" alt="..." />
+						<br> </br>
+						<br> </br>
+						<br> </br>
+						<h2 class="text-white mb-4">Maxima</h2>
+                        <p class="text-white-50">
+                           Maxima es una empresa inspirada en la raza, impulsada por productos. Formulamos, desarrollamos,
+						   fabricamos y distribuimos aceites, lubricantes y productos auxiliares de alto rendimiento.
+						   La esencia de nuestra marca se comunica a través de cientos de campeonatos con corredores, sintonizadores y
+						   equipos de clase mundial que confían en
+                            <a href="https://maximausa.com/">Maxima</a>
+                            para un rendimiento sin igual en condiciones de alto estrés sin falta.
+                        </p>
+                    </div>
+                </div>
+                <img class="img-fluid" src="assets/img/maxima.jpg" alt="..." />
+            </div>
+        </section>
+        <!-- Master Contacto-->
+        <section class="signup-section" id="signup">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">Contáctanos</h2>
+                        <!-- * * * * * * * * * * * * * * *-->
+						<!-- Validar datos formulario -->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Email address input--> <!-- No es necesario el token -->
+                            <div class="row input-group-newsletter">
+                                <div class="col"><input class="form-control" id="email" type="email" placeholder="Ingrese correo..." aria-label="Enter email address..."/></div>
+                            </div>
+                                </br>
+                            <div class="row input-group-newsletter">
+                                <div class="col"><input class="form-control" id="name" type="text" placeholder="Ingrese nombre..."/></div>
+                                </br>
+                            <div class="col"><input class="form-control" id="phone" type="number" placeholder="Ingrese teléfono..."/></div>
+                                </br>
+                            </div>
+                        </br>
+                            <div class="col-auto"><button class="btn btn-primary" onclick="validarCorreo();">Notíficame!</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Raúl Arancibia</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
+<script>
+    function validarCorreo(){
+        if ($("#email").val() == ""){
+            alert("Favor ingresar email");
+        }
+        else if ($("#name").val() == ""){
+            alert("Favor ingresar nombre");
+        }
+        else if ($("#phone").val() == ""){
+            alert("Favor ingresar teléfono");
+        }
+        else if ($("#phone").val().length != 8){
+            alert("Favor ingresar teléfono válido");
+        }
+        else
+        {
+            alert("Enviado con Éxito!");
+        }
+    }
+</script>
